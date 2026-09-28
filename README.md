@@ -1,15 +1,5 @@
 # Morphology Lab
 
-Interactive morphology lessons (React + Vite + Tailwind), packaged as an Android app with Capacitor.
+An interactive mobile app for learning morphology, the study of word structure in linguistics. It has 28 short lessons in six modules: Foundations & Core Concepts, Processes & Mechanics, Derivation vs. Inflection, Morphology at the Interfaces, Theoretical Approaches, and Language Typology & Language Change.
 
-## Get the APK
-1. Create a new GitHub repository and upload everything from this folder (keep the `.github` folder).
-2. Open the **Actions** tab and wait for "Build Android APK" to finish (or click **Run workflow**).
-3. Open the finished run and download **morphology-lab-apk** from Artifacts. Unzip it to get `app-debug.apk`.
-4. Copy the APK to your phone and install it (allow "Install unknown apps" when asked).
-
-## Run locally
-```
-npm install
-npm run dev
-```
+Each lesson has a brief explanation, a colour-coded breakdown of example words into roots, prefixes, suffixes and other parts, and a practice question with instant feedback.
